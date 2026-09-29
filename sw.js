@@ -1,6 +1,6 @@
 // Caches the app shell so it opens with no signal, but always tries the network
 // first so updates to the app reach phones as soon as they are online.
-const CACHE = 'company-register-v2';
+const CACHE = 'company-register-v3';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', (e) => {
